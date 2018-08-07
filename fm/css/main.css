@@ -1,0 +1,481 @@
+/* =================================== */
+/*	Basic Style 
+/* =================================== */
+
+
+/*  index bg  */
+
+ .bggrey{
+	background-color:#f1f1f1;
+}
+
+
+
+
+
+
+body {
+	background-color: #fff;
+
+	font-family:"Comic Sans MS", cursive
+    /*line-height: 1; */
+	font-size: 15px;
+}
+
+
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure, p {
+    margin: 0;
+}
+
+a {
+    -webkit-transition: all .3s ease-in 0s;
+       -moz-transition: all .3s ease-in 0s;
+        -ms-transition: all .3s ease-in 0s;
+         -o-transition: all .3s ease-in 0s;
+            transition: all .3s ease-in 0s;
+}
+
+iframe {
+    border: 0;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus, a:hover {
+    color: inherit;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	margin: 0;
+}
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+ 
+.clear:after {
+   clear: both;
+}
+ 
+.clear {
+   *zoom: 1;
+}
+
+body > section {
+	padding-top: 80px;
+	padding-right: 0;
+	padding-bottom: 20px;
+	padding-left: 0;
+}
+
+.section-title {
+	width: 420px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+}
+
+.section-title h2 {
+	color: #1f2021;
+	font-size: 25px;
+	position: relative;
+	margin-bottom: 1px;
+	padding-bottom: 1px;
+	text-transform: uppercase;
+}
+
+.section-title h2:before {
+  border-bottom: 1px solid #1f2021;
+  bottom: 0;
+  content: "";
+  left: 50%;
+  margin-left: -50px;
+  position: absolute;
+  width: 100px;
+}
+
+.section-title h2:after {
+background: none repeat scroll 0 0 #fff;
+border: 1px solid #1F2021;
+border-radius: 25px;
+bottom: -6px;
+content: "";
+height: 11px;
+left: 50%;
+margin-left: -5.5px;
+position: absolute;
+width: 11px;
+}
+
+.section-title p {
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn:hover,
+.btn:focus {
+    outline: 0;
+}
+
+.btn-blue {
+  background-color: #00c7fc;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 35px;
+}
+
+.kill-margin {
+    margin: 0 !important;
+}
+
+/*************************
+*******Navigation******
+**************************/
+
+#navigation,
+.navbar-brand,
+.navbar-toggle,
+.navbar-nav > li > a,
+.search-form > #search-sub {
+  -webkit-transition: all 0.6s ease;
+     -moz-transition: all 0.6s ease;
+      -ms-transition: all 0.6s ease;
+       -o-transition: all 0.6s ease;
+          transition: all 0.6s ease;
+}
+
+.animated-nav .navbar-brand {
+  padding: 15px 0;
+}
+
+.animated-nav .navigation .navbar-nav > li > a {
+  padding: 23px 25px;
+}
+
+#navigation > .container {
+	border-bottom-style: none;
+}
+
+.animated-nav#navigation > .container {
+  border-bottom: none;
+}
+
+.navbar-brand {
+  height: inherit;
+  padding: 30px 0;
+}
+
+.navbar-brand a {
+  display: block;
+  color:#FFF;
+}
+
+.navigation .navbar-nav > li > a {
+	color: #fff;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 25px;
+	padding-right: 40px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+}
+
+.navigation .navbar-nav > li.current > a {
+  color: #00C7FC;
+  border-bottom: 1px solid #00C7FC;
+}
+
+.animated-nav .navigation .navbar-nav > li.current > a {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.navigation .navbar-nav > li > a:focus,
+.navigation .navbar-nav > li > a:hover {
+  background-color: transparent;
+}
+
+.search-form {
+  position: relative;
+}
+
+.search-form > #search {
+  width: 100%;
+}
+
+.search-form > #search {
+  background-color: transparent;
+  height: 40px;
+    border: 0 ;
+  margin-top: 28px;
+  width: 100%;
+}
+
+.search-form > #search-sub {
+  background: url("../img/icons/search.png") no-repeat scroll 0 0 transparent;
+  border: 0 ;
+  bottom: 11px;
+  height: 15px;
+  position: absolute;
+  right: 8px;
+  padding: 0;
+  text-indent: -9999em;
+  width: 15px;
+}
+
+.animated-nav .search-form > #search-sub {
+    bottom: 22px;
+}
+
+/*************************
+*******Main Slider******
+**************************/
+
+
+#home{
+  padding: 0;
+  overflow: hidden;
+}
+
+#home-carousel .carousel-inner .item {
+  background-size:cover;
+}
+
+#home-carousel .slider-content {
+  height: 100%;
+}
+
+#home-carousel .carousel-caption {
+	left: 3px;
+	top: 0;
+	z-index: 11;
+	text-align: left;
+}
+
+.carousel-caption > div {
+	background-color: rgba(15,116,143,0.8);
+	position: absolute;
+	top: 300px;
+	width: 1030px;
+	left: 100px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+#home-carousel .carousel-inner h2 {
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 50px;
+  margin-bottom: 20px;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+
+#home-carousel .carousel-inner p {
+  color: #FFFFFF;
+  line-height: 28px;
+  font-size: 13px;
+  margin-top: 0;
+  text-shadow:none;
+}
+
+#nav-arrows > a {
+  border: 1px solid #fff;
+  color: #fff;
+  display: block;
+  height: 60px;
+  line-height: 76px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 60px;
+  z-index: 20;
+  margin-top: -30px;
+
+    -webkit-transition: all 0.3s ease 0s;
+       -moz-transition: all 0.3s ease 0s;
+        -ms-transition: all 0.3s ease 0s;
+         -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+}
+
+#nav-arrows > a.sl-prev {
+    left: 50px;
+}
+
+#nav-arrows > a.sl-next {
+    right: 50px;
+}
+
+#nav-arrows > a.sl-next:hover {
+    background-color: #009EE3;
+    border-color: #009EE3;
+    color: #fff;
+}
+
+.carousel-indicators .active {
+  background-color: #00c7fc;
+  border: 0;
+}
+
+
+
+/* carousel navigation */
+
+.owl-pagination {
+  text-align: center;
+}
+
+.owl-controls .owl-page {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.owl-controls .owl-page span {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #ACACAC;
+  display: block;
+  height: 12px;
+  margin: 5px 4px;
+  width: 12px;
+}
+
+.owl-controls .owl-page.active span,
+.owl-controls .owl-page:hover span {
+  background-color: #00C7FC;
+  border-color: #00C7FC;
+}
+
+
+/* progress bars */
+
+.progress-bars > span {
+  color: #1f2021;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.progress {
+  background-color: #dbdbdb;
+  border-radius: 0;
+  box-shadow: none;
+  height: 25px;
+  margin-bottom: 25px;
+}
+
+.progress .bar {
+  width: 0;
+  height: 25px;
+  background-color: #00C7FC;
+
+  -webkit-transition: width 0.6s ease;
+     -moz-transition: width 0.6s ease;
+      -ms-transition: width 0.6s ease;
+       -o-transition: width 0.6s ease;
+          transition: width 0.6s ease;
+}
+
+
+.progress .bar small { color:#fafafa; font-size:12px; }
+
+.progress.active .bar {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+     -moz-animation: progress-bar-stripes 2s linear infinite;
+      -ms-animation: progress-bar-stripes 2s linear infinite;
+       -o-animation: progress-bar-stripes 2s linear infinite;
+          animation: progress-bar-stripes 2s linear infinite;
+}
+
+.progress-success .bar, .progress-green .bar {
+  background-color: #00C7FC;
+
+}
+
+
+
+/*=================================
+    Quotes
+===================================*/
+
+#quotes {
+    background-color: #1F2021;
+}
+
+.call-to-action {
+    color: #fff;
+    font-weight: 600;
+}
+
+.call-to-action p {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+
+
+/*============================================================
+    Media Queries
+============================================================*/
+
+#subscribe {
+  background-color: #1f2021;
+  color: #fff;
+  line-height: 24px;
+}
+
+.subscription-form {
+  color: #fff;
+  position: relative;
+}
+
+.subscription-form i {
+  left: 21px;
+  position: absolute;
+  top: 22px;
+}
+
+.subscription-form .subscribe {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  height: 58px;
+  text-indent: 60px;
+  width: 100%;
+}
+
+.subscription-form #mail-submit {
+  background-color: #00c7fc;
+  border: 0 none;
+  color: #fff;
+  padding: 16px 35px;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}

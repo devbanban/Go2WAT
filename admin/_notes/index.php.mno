@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8" ?><info>	<infoitem key="UD_Recordset1" value="name:id_contact;datatype:int,name:detail;datatype:blob,name:q_name;datatype:string,name:email;datatype:string,name:DateAdd;datatype:timestamp,name:addby;datatype:string" /></info>
